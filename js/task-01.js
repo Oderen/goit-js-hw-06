@@ -21,4 +21,4 @@ console.log(`Category: ${titleRef[2].textContent}`);
 console.log("Elements: ", categoriesAmount[2].querySelectorAll("li").length);
 // Elements: 5
 
-console.log(1);
+
