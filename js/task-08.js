@@ -13,17 +13,17 @@ form.addEventListener('submit', event => {
     const password = formElements.password.value;
     console.log('password: ', password);
 
-    if (email === '' || password === '') {
-        alert('All fields must be filled');
-    }
-
     const formData = {
-    email,
-    password
+        email,
+        password
     };
     console.log(formData);
 
-    form.reset();
-
+    if (email === '' || password === '') {
+        alert('All fields must be filled');
+    } else {
+        form.reset();
+ }
 })
+
 
